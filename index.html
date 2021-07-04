@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/web development/CSS/survey.css">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Survey</title>
+    </head>
+    <body>
+        
+            <header>
+                <h1> A Friendly survey </h1>
+                <article>
+                    <div class="para1">
+                We are conducting a fun survey on the different question types . We'd love to hear from you about what question types you use the most and what question types you want to see built.This will help us make improvements to the existing tool and prioritize new features. The survey should only take few minutes, and your responses are completely anonymous.
+
+You can only take the survey once, but you can edit your responses until the survey is closed on july 26, 2021.
+
+If you have any questions about the survey, please email us: omendra108@gmail.com<br>
+
+We really appreciate your input!
+                    </div>
+                </article><br>
+            </header>
+            <nav class="nav">
+
+                <a href="survey.html">About</a>
+                <a href="/web development/website/close-ended.html">Close-ended</a>
+                <a href="/web development/website/yesorno.html">Yes/No</a>
+                <a href="/web development/website/open-ended.html">Open-ended</a>
+                
+            </nav>
+            <br>
+            <h3>let the survey begin</h3>
+            <h2>About</h2>
+            <form action="/web development/survey_result.php" method="POST" id="form1">
+                <ul>
+                    <li><label for="email">Email</label><br>
+                        <input type="text" id="email" name="email"></li><br>
+                    
+                    <li><label for="name">Name</label><br>
+                        <input type="text" id="name" name="name"></li><br>
+
+                    <li><label for="DOB"><abbr title="date of birth">DOB</abbr></label><br>
+                        <input type="date" id="DOB" name="DOB"></li><br>
+                    
+                    <li> Gender<br>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">MALE</label><br>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="others" name="gender" value="Others">
+                        <label for="others">Others</label>
+                    </li><br>
+
+                    <li>
+                        <label for="personality">Personality</label><br>
+                        <input type="text" id="personality" name="personality"><br>
+                    </li>
+            <div>
+                kindly take this test to find your personality, to identify your personality
+                <a href="https://www.16personalities.com/free-personality-test" target="_blank">Personality Test</a>
+            </div>
+
+                </ul>
+            </form>
+
+            <button type="submit" form="form1" value="Submit">Submit</button>
+
+        </body>
+</html>

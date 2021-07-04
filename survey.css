@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(10, 10, 10);
+    color: rgb(192, 192, 192,0.8);
+    text-align: left ;
+    padding-left: 5px;    
+}
+
+
+
+h1{
+    letter-spacing: 2px;
+    border: 2px solid rgb(255, 255, 255);
+    padding:10px;
+    border-radius:50px 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid seashell;
+    border-radius:20px;
+    padding: 10px;
+    width: 14%;
+
+}
+
+div.para1 {
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+nav.nav{
+    word-spacing: 20px;
+    text-align: center;
+}
+  
